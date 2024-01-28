@@ -1,0 +1,87 @@
+/* Navbar Main Container */
+
+.navbar_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.45rem;
+    font-family: 'Poppins';
+}
+
+/* Navbar Left */
+
+.navbar_main_left {
+    display: flex;
+}
+
+.img_holder_navbar {
+    margin-right: 14px;
+    padding: 1px;
+    border: 2px solid #063143;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+.img_holder_navbar img{
+    height: 100%;
+    width: 100%;
+}
+
+.smp_heading_navbar {
+    font-size: 34px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    bottom: 10px;
+}
+
+.smp_heading_navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.smp_heading_navbar a span {
+    color: #ED2B2B;
+}
+
+/* Navbar Right */
+
+.navbar_main_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    width: 50%;
+}
+
+.navbar_main_right ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: rgb(0, 0, 0, 0.5);
+    width: 75%;
+    font-size: 18px;
+}
+
+.navbar_main_right ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.navbar_main_right button {
+    background-color: #ffffff;
+    color: #063143;
+    border: 1px solid #063143;
+    padding: 8px 25px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+.navbar_main_right button:hover {
+    background-color: #063143;
+    cursor: pointer;
+    color: #ffffff;
+}
