@@ -43,10 +43,6 @@
     color: inherit;
 }
 
-.smp_heading_navbar a span {
-    color: #ED2B2B;
-}
-
 /* Navbar Right */
 
 .navbar_main_right {
@@ -61,14 +57,15 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    color: rgb(0, 0, 0, 0.5);
     width: 75%;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .navbar_main_right ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0, 0.5);
+    color: inherit;
+    /* color: rgb(255, 255, 255, 0.5); */
+    /* color: rgba(0, 0, 0, 0.5); */
 }
 
 .navbar_main_right button {

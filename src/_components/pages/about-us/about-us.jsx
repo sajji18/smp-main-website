@@ -6,6 +6,7 @@ import image1 from '@/images/pages/about-us/image1.svg'
 import image2 from '@/images/pages/about-us/image2.svg'
 import image3 from '@/images/pages/about-us/image3.svg'
 import image4 from '@/images/pages/about-us/image4.svg'
+import mainImage from '@/images/pages/about-us/image-main.svg'
 import { useRouter } from 'next/navigation'
 
 const Index = () => {
@@ -13,9 +14,26 @@ const Index = () => {
 
     return (
         <div className={styles.about_us_main}>
+            <div className={styles.background_overlay}></div>
+            <div 
+                className={styles.about_us_main_container_hero}
+                style={{
+                    position: 'relative',
+                    height: '100vh',
+                    width: '100%'
+                }}
+            >
+                
+            </div>
+
+
+
             <div className={styles.about_us_main_heading}>
                 ABOUT US
             </div>
+
+
+
             <div className={styles.about_us_main_container_1}>
                 <div className={styles.about_us_main_container_1_content}>
                     <div className={styles.about_us_main_container_1_content_text_area}>
@@ -38,6 +56,9 @@ const Index = () => {
                     </div>
                 </div>
             </div>
+
+
+
             <div className={styles.about_us_main_container_2}>
                 <div className={styles.about_us_main_container_2_content}>
                     <div className={styles.about_us_main_container_2_content_image}> 
@@ -57,6 +78,9 @@ const Index = () => {
                     </div>
                 </div>
             </div>
+
+
+
             <div className={styles.about_us_main_container_3}>
                 <div className={styles.about_us_main_container_3_content}>
                     <div className={styles.about_us_main_container_3_content_text_area}>
@@ -77,6 +101,7 @@ const Index = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

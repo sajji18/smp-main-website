@@ -18,7 +18,7 @@ const Navbar = () => {
                     />
                 </div>
                 <div className={styles.smp_heading_navbar}>
-                    <Link href={"/"}><span>SMP</span>-IITR</Link> 
+                    <Link href={"/"}><span style={{ color: '#ED2B2B' }}>SMP</span><span style={{ color: '#073C52' }}>-IITR</span></Link> 
                 </div>
             </div>
             <div className={styles.navbar_main_right}>
