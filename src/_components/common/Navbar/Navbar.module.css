@@ -53,6 +53,15 @@
     width: 50%;
 }
 
+.active_option {
+    color: black;
+}
+
+/* .active_button {
+    background-color: #063143 !important;
+    color: white !important;
+} */
+
 .navbar_main_right ul {
     display: flex;
     justify-content: space-between;
@@ -64,6 +73,7 @@
 .navbar_main_right ul li a {
     text-decoration: none;
     color: inherit;
+    font-weight: 500;
     /* color: rgb(255, 255, 255, 0.5); */
     /* color: rgba(0, 0, 0, 0.5); */
 }

@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './about-us.module.css'
 import Image from 'next/image'
 import image1 from '@/images/pages/about-us/image1.svg'
