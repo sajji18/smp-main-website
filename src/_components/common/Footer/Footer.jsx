@@ -7,8 +7,11 @@ import instagramIcon from '@/images/common/footer/instagramIcon.svg'
 import gmailIcon from '@/images/common/footer/gmailIcon.svg'
 import facebookIcon from '@/images/common/footer/facebookIcon.svg'
 import linkedinIcon from '@/images/common/footer/linkedinIcon.svg'
+import { useRouter } from "next/navigation";
 
 const Footer = () => {
+    const router = useRouter();
+    
     return (
         <footer className={styles.footer}>
             <div className={styles.footer_main}>
@@ -19,11 +22,11 @@ const Footer = () => {
                         </div>
                         <div className={styles.footer_main_left_heading_text}>
                             <span>
-                                Student 
+                                STUDENT 
                                 <br />
-                                Mentorship 
+                                MENTORSHIP 
                                 <br />
-                                Program
+                                PROGRAM
                             </span>
                         </div>
                     </div>
@@ -31,7 +34,7 @@ const Footer = () => {
                         <span>It is one of the largest on-campus student body initiatives which assigns a mentor (a Pre-Final or Final year student) to all the freshmen within the same branch.</span>
                     </div>
                     <div className={styles.footer_main_left_button}>
-                        <button>
+                        <button onClick={() => router.push('/about-us')}>
                             Learn more
                         </button>
                     </div>
@@ -67,7 +70,7 @@ const Footer = () => {
                         {
                             [twitterIcon, instagramIcon, gmailIcon, facebookIcon, linkedinIcon].map((icon, index) => {
                                 return (
-                                    <Image src={icon}/>
+                                    <Image src={icon} />
                                 )
                             })
                         }
